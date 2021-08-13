@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -19,7 +20,13 @@ namespace MvcClient.Controllers
         {
             return View();
         }
-
+        public IActionResult Login()
+        {
+            return Challenge(new AuthenticationProperties
+            {
+                RedirectUri = "/Home/Index"
+            }, "oidc");
+        }
         public IActionResult Logout()
         {
             return SignOut("Cookie", "oidc");
