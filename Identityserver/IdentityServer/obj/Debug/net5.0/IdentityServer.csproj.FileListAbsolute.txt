@@ -690,10 +690,13 @@ C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\bin\Debug\n
 C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\bin\Debug\net5.0\refs\WindowsBase.dll
 C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\bin\Debug\net5.0\IdentityServer.Views.dll
 C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\bin\Debug\net5.0\IdentityServer.Views.pdb
+C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\bin\Debug\net5.0\AutoMapper.dll
 C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\bin\Debug\net5.0\Humanizer.dll
 C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\bin\Debug\net5.0\IdentityModel.dll
 C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\bin\Debug\net5.0\IdentityServer4.dll
 C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\bin\Debug\net5.0\IdentityServer4.AspNetIdentity.dll
+C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\bin\Debug\net5.0\IdentityServer4.EntityFramework.dll
+C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\bin\Debug\net5.0\IdentityServer4.EntityFramework.Storage.dll
 C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\bin\Debug\net5.0\IdentityServer4.Storage.dll
 C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
 C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
@@ -766,7 +769,6 @@ C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\bin\Debug\n
 C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\obj\Debug\net5.0\IdentityServer.csproj.AssemblyReference.cache
 C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\obj\Debug\net5.0\IdentityServer.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\obj\Debug\net5.0\IdentityServer.AssemblyInfoInputs.cache
 C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\obj\Debug\net5.0\IdentityServer.AssemblyInfo.cs
@@ -781,14 +783,6 @@ C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\obj\Debug\n
 C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\obj\Debug\net5.0\IdentityServer.TagHelpers.input.cache
 C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\obj\Debug\net5.0\IdentityServer.TagHelpers.output.cache
 C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\obj\Debug\net5.0\IdentityServer.RazorCoreGenerate.cache
-C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
-C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
-C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
-C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
-C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationSummary.cshtml.g.cs
-C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
-C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
 C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\obj\Debug\net5.0\Razor\Views\Account\Index.cshtml.g.cs
 C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
 C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
@@ -806,3 +800,4 @@ C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\obj\Debug\n
 C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\obj\Debug\net5.0\ref\IdentityServer.dll
 C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\obj\Debug\net5.0\IdentityServer.pdb
 C:\Users\apurv\Desktop\IdentityServer4\IdentityServer\IdentityServer\obj\Debug\net5.0\IdentityServer.genruntimeconfig.cache
+C:\Users\apurv\Desktop\IdentityServer4\Identityserver\IdentityServer\obj\Debug\net5.0\IdentityServer.csproj.AssemblyReference.cache

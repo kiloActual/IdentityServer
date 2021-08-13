@@ -36,7 +36,8 @@ namespace MvcClient
                     config.ClientId = "client_id_mvc";
                     config.ClientSecret = "client_secret_mvc";
                     config.SaveTokens = true;
-
+                    config.Scope.Add("profile");
+                    config.GetClaimsFromUserInfoEndpoint = true;
                     config.ResponseType = "code";
                 });
 

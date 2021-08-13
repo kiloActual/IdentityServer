@@ -1,5 +1,8 @@
 ﻿using IdentityModel;
 using IdentityServer.Models;
+using IdentityServer4;
+using IdentityServer4.Services;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -14,11 +17,16 @@ namespace IdentityServer.Controllers
     {
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly UserManager<ApplicationUser> _userManager;
+        private readonly IIdentityServerInteractionService _interaction;
 
-        public AccountController(SignInManager<ApplicationUser> signInManager,UserManager<ApplicationUser> userManager)
+        public AccountController(
+            SignInManager<ApplicationUser> signInManager,
+            UserManager<ApplicationUser> userManager, 
+            IIdentityServerInteractionService interaction)
         {
             _signInManager = signInManager;
             _userManager = userManager;
+            _interaction = interaction;
         }
 
         [Route("/")]
@@ -103,5 +111,24 @@ namespace IdentityServer.Controllers
             return View(vm);
         }
 
+        [HttpGet]
+        public async Task<IActionResult> Logout(string logoutId)
+        {
+            if (User?.Identity.IsAuthenticated == true)
+            {
+                // delete local authentication cookie
+                await _signInManager.SignOutAsync();
+
+                if (logoutId == null)
+                {
+                    await HttpContext.SignOutAsync();
+                    return Redirect("/");
+                }
+            }
+
+            var logout = await _interaction.GetLogoutContextAsync(logoutId);
+            
+            return Redirect(logout.PostLogoutRedirectUri);
+        }
     }
 }

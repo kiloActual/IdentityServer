@@ -14,5 +14,9 @@ namespace IdentityServer.Data
         {
 
         }
-    }
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+        }
+    }   
 }
